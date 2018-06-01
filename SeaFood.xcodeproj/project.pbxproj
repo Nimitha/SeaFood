@@ -12,6 +12,7 @@
 		E202D42320C0157F00A738AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E202D42120C0157F00A738AB /* Main.storyboard */; };
 		E202D42520C0158900A738AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E202D42420C0158900A738AB /* Assets.xcassets */; };
 		E202D42820C0158900A738AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E202D42620C0158900A738AB /* LaunchScreen.storyboard */; };
+		E202D43020C016BC00A738AB /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E202D42F20C016BC00A738AB /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E202D42420C0158900A738AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E202D42720C0158900A738AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E202D42920C0158A00A738AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E202D42F20C016BC00A738AB /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E202D42420C0158900A738AB /* Assets.xcassets */,
 				E202D42620C0158900A738AB /* LaunchScreen.storyboard */,
 				E202D42920C0158A00A738AB /* Info.plist */,
+				E202D42F20C016BC00A738AB /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E202D42020C0157F00A738AB /* ViewController.swift in Sources */,
+				E202D43020C016BC00A738AB /* Inceptionv3.mlmodel in Sources */,
 				E202D41E20C0157F00A738AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 499ZYBL2R6;
 				INFOPLIST_FILE = SeaFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 499ZYBL2R6;
 				INFOPLIST_FILE = SeaFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
